@@ -76,6 +76,11 @@ func main(){
 		fmt.Println(i)
 	}
 
-	//continnue
+	//continnue ：结束本次循环
 	
+	//goto ： 无条件转移到程序中指定的行，一般不建议使用
+	// goto lable
+
+	//return 停止当前函数
+	 
 }
