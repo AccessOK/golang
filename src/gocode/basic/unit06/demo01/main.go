@@ -1,26 +1,38 @@
 package main
-import "fmt"
+import ("fmt"
+		"errors"
+)
 
 func main(){
-	var num1 int = 5
-	var num2 int = 9
-	exchanpackage main
-	import "fmt"
-	//形参定义 类型在参数名后面
-	//函数名首字母大写可以被本报文件和其他文件使用（public）
-	func sum(a int,b int)(int){//如果返回类型就一个，可以省略
-		return a + b
+	//错误处理+异常捕获机制
+	//recover允许程序管理恐慌过程中的go程。
+	//在defer的函数中，执行recover调用会取回传至panic调用的错误值，恢复正常执行。
+	err := test()
+	if err  != nil {
+		fmt.Println(err)
+		//终止错误程序
+		panic(err)
 	}
-	func cal(a int,b int)(int,int){
-		return a-b,b-a
+	fmt.Println("函数执行成功！")
+}
+
+func test()(err error){
+	//利用defer+recover来捕获错误：defer + 匿名函数调用
+	// defer func(){
+	// 	//调用recover内置函数，可以捕获错误
+	// 	err := recover()
+	// 	if err != nil {
+	// 		fmt.Println("错误已经捕获！")
+	// 	}
+	// }()
+	num1 := 10
+	num2 := 0
+	if num2 == 0 {
+		//抛出自定义异常
+		return errors.New("除数不能为0")
+	}else{
+		result := num1 / num2
+		fmt.Println(result)
+		return nil
 	}
-	func nothing(){
-		fmt.Println("nothing")
-	}
-	func main(){
-		fmt.Println(sum(9,1))
-		fmt.Println(cal(9,3))
-		nothing()
-	}ge(num1,num2)
-	fmt.Printf("num1=%d,num2=%d",num1)
 }
