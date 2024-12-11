@@ -31,3 +31,17 @@
     - 微线程，用户态的轻量级线程。
     - 执行A函数的时候，可以随时中断，去执行B函数。
     - 对于单线程下
+
+# 软件包管理器
+- go path : 
+    不推荐，要求将所有工程代码放在GOPATH/src目录下。
+    在工程经过go build，go install，go get等指令之后，会将第三方依赖包拉取到src目录下，产生二进制可执行文件放在GOPATH/bin目录下，中间产生的缓存文件会被保存在GOPATH/pkg下。
+    没有版本控制的概念，go get的时候，获取的永远是最新的依赖包。如果有两个工程依赖一个包的不同版本，则会产生冲突。
+- go vendor：
+    Go1.5之后提供，go build时应用路劲搜索调整为当前工程/vendor目录，这样不同工程使用自己独立的依赖包目录。vendor目录没有才去GOPATH中查找，都没找到最后在GOROOT中查找。
+    放弃了依赖复用，冗余度上升。
+- go module:
+    Go1.11之后提供，Go1.13之后默认选择启用。该模式下所有依赖的包存放在GOPATH/pkg/mod目录下，所有第三方二进制可执行文件存放在GOPATH/bin目录下，且工程项目可以根据go.mod配置放在GOPATH路径之外。
+    go mod init ：初始化当前文件夹，创建go.mod
+    go mod tidy ：包整理（多的删去，少的拉取）
+    go mod vendor ：将依赖包复制到工程文件的vendor下
