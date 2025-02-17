@@ -6,6 +6,17 @@ import "fmt"
 //请你 合并 nums2 到 nums1 中，使合并后的数组同样按 非递减顺序 排列。
 //注意：最终，合并后数组不应由函数返回，而是存储在数组 nums1 中。
 //为了应对这种情况，nums1 的初始长度为 m + n，其中前 m 个元素表示应合并的元素，后 n 个元素为 0 ，应忽略。nums2 的长度为 n 。nums1 []int, m int, nums2 []int, n int
-func merge() {
-	fmt.Println("test")
+func merge(nums1 []int, m int, nums2 []int, n int) {
+	var n_mark = len(nums1)
+	var m_mark = len(nums2)
+	for i := m + n; i > 0; i-- {
+		if nums1[m_mark-1] > nums2[n_mark-1] {
+			nums1[i-1] = nums1[m_mark-1]
+			n_mark--
+		} else {
+			nums1[n+i] = nums2[n_mark-1]
+			m_mark--
+		}
+	}
+	fmt.Println(nums1)
 }
