@@ -10,6 +10,9 @@ func removeElement(nums []int, val int) int {
 	//假设 nums 中不等于 val 的元素数量为 k，要通过此题，您需要执行以下操作：
 	//更改 nums 数组，使 nums 的前 k 个元素包含不等于 val 的元素。nums 的其余元素和 nums 的大小并不重要。
 	//返回 k。
+	//0 <= nums.length <= 100
+	//0 <= nums[i] <= 50
+	//0 <= val <= 100
 	var k = 0
 	for i := 0; i < len(nums); i++ {
 		if nums[i] == val {
