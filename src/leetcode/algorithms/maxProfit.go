@@ -6,17 +6,21 @@ func maxProfit(prices []int) int {
 	//返回你可以从这笔交易中获取的最大利润。如果你不能获取任何利润，返回 0 。
 	maxPosition := 0
 	minPosition := 0
-	maxPrice := prices[maxPosition]
-	minPrice := prices[minPosition]
-	for i := 0; i < len(prices); i++ {
-		if prices[i] < minPrice {
-			minPrice = prices[i]
+	maxPrice := 0
+	for i := 1; i < len(prices); i++ {
+		if prices[i] < prices[minPosition] {
 			minPosition = i
+			maxPosition = -1
+		} else {
+			if maxPosition == -1 {
+				maxPosition = i
+				maxPrice = prices[maxPosition] - prices[minPosition]
+			} else if prices[i] > prices[maxPosition] {
+				maxPosition = i
+				maxPrice = prices[maxPosition] - prices[minPosition]
+			}
 		}
-		if prices[i] > maxPrice {
-			maxPrice = prices[i]
-			maxPosition = i
-		}
+
 	}
 	return maxPosition - minPosition
 }
