@@ -1,12 +1,14 @@
 package main
+
 import "fmt"
-func main(){
+
+func main() {
 	fmt.Println("--------------------------字符类型------------------------------------")
 	var c1 byte = 'a'
 	fmt.Println(c1)
 	//golang的字符对应的使用时UTF-8编码(Unicode时对应的字符集，UTF-8是Unicode的其中的一种编码方案)
 	var c2 byte = 'A'
-	fmt.Printf("%c",c2)
+	fmt.Printf("%c", c2)
 	fmt.Println("--------------------------转义字符------------------------------------")
 	// \b为退格
 	fmt.Println("aaaa\bbbb")
@@ -30,7 +32,7 @@ func main(){
 	//如果字符串中没有特殊字符，字符串的表示形式使用双引号
 	//如果字符转中有特殊字符，字符串的表现形式使用反引号 ``
 	var s3 string = `
-	func main() { //程序入口
+	func sort16422() { //程序入口
 		fmt.Println("Hello, 世界")
 	}
 	`

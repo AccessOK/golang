@@ -10,7 +10,7 @@ import (
 
 func main() {
 	//一次性读取文件
-	content, err := ioutil.ReadFile("D:/AccessOK/code/golang/src/gocode/basic/10fileManage/test.txt")
+	content, err := ioutil.ReadFile("D:/AccessOK/code/golang/src/gocode/01program/10fileManage/test.txt")
 	if err != nil {
 		fmt.Println("读取出错：", err)
 	} else {
@@ -18,7 +18,7 @@ func main() {
 	}
 	//带缓冲的流
 	//打开文件
-	file, err := os.Open("D:/AccessOK/code/golang/src/gocode/basic/10fileManage/test.txt")
+	file, err := os.Open("D:/AccessOK/code/golang/src/gocode/01program/10fileManage/test.txt")
 	if err != nil {
 		fmt.Println("文件打开失败，err=", err)
 	}
@@ -34,7 +34,7 @@ func main() {
 	}
 	fmt.Println("ending")
 	//写入文件
-	file1, err1 := os.OpenFile("D:/AccessOK/code/golang/src/gocode/basic/10fileManage/test.txt", os.O_RDWR|os.O_APPEND, 0666)
+	file1, err1 := os.OpenFile("D:/AccessOK/code/golang/src/gocode/01program/10fileManage/test.txt", os.O_RDWR|os.O_APPEND, 0666)
 	if err1 != nil {
 		fmt.Println("打开失败")
 		return
@@ -47,13 +47,13 @@ func main() {
 	writer.Flush() //流数据在缓冲区中，刷新，将缓冲区中的内容保存到磁盘
 	//文件复制
 	//源文件
-	content1, err1 := ioutil.ReadFile("D:/AccessOK/code/golang/src/gocode/basic/10fileManage/test.txt")
+	content1, err1 := ioutil.ReadFile("D:/AccessOK/code/golang/src/gocode/01program/10fileManage/test.txt")
 	if err != nil {
 		fmt.Println("读取失败")
 		return
 	}
 	//目标文件
-	err2 := ioutil.WriteFile("D:/AccessOK/code/golang/src/gocode/basic/10fileManage/test1.txt", content1, 0666)
+	err2 := ioutil.WriteFile("D:/AccessOK/code/golang/src/gocode/01program/10fileManage/test1.txt", content1, 0666)
 	if err2 != nil {
 		fmt.Println("写入失败！")
 	}

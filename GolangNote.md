@@ -41,7 +41,22 @@
     Go1.5之后提供，go build时应用路劲搜索调整为当前工程/vendor目录，这样不同工程使用自己独立的依赖包目录。vendor目录没有才去GOPATH中查找，都没找到最后在GOROOT中查找。
     放弃了依赖复用，冗余度上升。
 - go module:
-    Go1.11之后提供，Go1.13之后默认选择启用。该模式下所有依赖的包存放在GOPATH/pkg/mod目录下，所有第三方二进制可执行文件存放在GOPATH/bin目录下，且工程项目可以根据go.mod配置放在GOPATH路径之外。
+Go1.11之后提供，Go1.13之后默认选择启用。该模式下所有依赖的包存放在GOPATH/pkg/mod目录下，所有第三方二进制可执行文件存放在GOPATH/bin目录下，且工程项目可以根据go.mod配置放在GOPATH路径之外。
     go mod init ：初始化当前文件夹，创建go.mod
     go mod tidy ：包整理（多的删去，少的拉取）
     go mod vendor ：将依赖包复制到工程文件的vendor下
+- go mod tidy:
+    保持依赖整洁
+- go env -w GOPROXY=https://goproxy.cn 
+    更换代理
+- go get "github.com/***/***"
+    下载依赖
+
+# go
+- 内置并发机制，并且之关注那些直接被引用的库。
+- goroutine：可以并行执行的函数，同时也会与主程序并行。同一个人线程可执行多个goroutime。
+- 通道用于在几个运行的goroutine之间发送数据。
+
+# go Playground
+- 允许在浏览器里编译并运行go语言代码。
+- 每次使用playground创建一个程序后，点击Share分享到一个地址，任何人都能打开并修改。
