@@ -74,6 +74,18 @@ Go1.11之后提供，Go1.13之后默认选择启用。该模式下所有依赖�
 # 内存地址
 内存地址编号从0开始，默认采用无符号16进制数据表示。
 
+# 交叉编译 
+go语言向下支持c语言，可以在go中直接编写c，但是在编译时，必须支持c。
+CGO_ENABLE=0 GOOS=linux GOARCH=amd64 go build main.go
+CGO_ENABLE 设置C和GO混合编译。
+
+# go install
+编译并安装项目
+
+# go doc
+获取帮助文档
+
+# go test
 
 
 CE工具
