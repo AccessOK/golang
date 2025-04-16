@@ -1,4 +1,4 @@
-package main
+package LinkArray
 
 type ListNode struct {
 	Val  int

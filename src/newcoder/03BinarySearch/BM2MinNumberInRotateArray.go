@@ -1,4 +1,4 @@
-package main
+package BinarySearch
 
 func minNumberInRotateArray(nums []int) int {
 	// write code here

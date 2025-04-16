@@ -1,4 +1,4 @@
-package main
+package LinkArray
 
 func deleteDuplicates2(head *ListNode) *ListNode {
 	// write code here

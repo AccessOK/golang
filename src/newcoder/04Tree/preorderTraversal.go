@@ -1,13 +1,19 @@
-package main
+package Tree
 
 func preorderTraversal(root *TreeNode) []int {
 	// write code here
-	res := []int{}
-	p := root
-	for p != nil {
-		res = append(res, p.Val)
-		if(p.Left.Val!=nil)p = p.Left
+	res := &[]int{}
+	traversal1(root, res)
+	return *res
+}
+func traversal1(root *TreeNode, res *[]int) {
+	if root == nil {
+		return
 	}
-
-	return res
+	//存储当前节点
+	*res = append(*res, root.Val)
+	//访问左子树
+	traversal1(root.Left, res)
+	//访问右子树
+	traversal1(root.Right, res)
 }
