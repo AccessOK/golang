@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed8bbe1c-c57d-442b-9625-f86d962d2d7c" name="Changes" comment="Changes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AccessOK"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:AccessOK/golang.git",
+    "accountId": "92d4594d-99de-4317-97a6-acdd788db10f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2uOV63d9ndL1J9sQGYFKrFBPLEi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go 构建.go build Accessok.com/golang/src/meeting.executor": "Debug",
+    "Go 构建.go build Accessok.com/golang/src/newcoder/01Printf.executor": "Debug",
+    "Go 构建.go build Accessok.com/golang/src/newcoder/02LinkArray.executor": "Debug",
+    "Go 构建.go build Accessok.com/golang/src/newcoder/02链表.executor": "Debug",
+    "Go 构建.go build libraryManager.go.executor": "Debug",
+    "Go 构建.go build main.go (1).executor": "Debug",
+    "Go 构建.go build main.go.executor": "Run",
+    "Go 测试.Accessok.com/golang/src/meeting 中的 TestMinChange.executor": "Debug",
+    "Go 测试.Accessok.com/golang/src/newcoder/02LinkArray 中的 Test12SortInList.executor": "Run",
+    "Go 测试.Accessok.com/golang/src/newcoder/02LinkArray 中的 Test1ReverseList.executor": "Debug",
+    "Go 测试.Accessok.com/golang/src/newcoder/03BinarySearch 中的 TestSearch.executor": "Debug",
+    "Go 测试.Accessok.com/golang/src/newcoder/04Tree 中的 TestTree.executor": "Debug",
+    "Go 测试.go test Accessok.com/golang/src/newcoder/02LinkArray.executor": "Run",
+    "Go 测试.go test Accessok.com/golang/src/newcoder/04Tree.executor": "Debug",
+    "Go 测试.merge_test.go 中的 TestMerge.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/AccessOK/golang",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "goland.project.structure"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AccessOK\golang\src\newcoder" />
+      <recent name="D:\AccessOK\golang\src" />
+      <recent name="D:\AccessOK\golang\src\newcoder\main" />
+      <recent name="D:\AccessOK\golang\src\leetcode\algorithms" />
+      <recent name="D:\AccessOK\golang\src\leetcode\test" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="g" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="GoApplicationRunConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go 测试.Accessok.com/golang/src/meeting 中的 TestMinChange">
+    <configuration name="go build Accessok.com/golang/src/meeting" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Accessok.com/golang/src/meeting" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/meeting/根据某条件最少交换次数.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Accessok.com/golang/src/meeting 中的 TestMinChange" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/meeting" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Accessok.com/golang/src/meeting" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestMinChange\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Accessok.com/golang/src/newcoder/03BinarySearch 中的 TestSearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/newcoder/03BinarySearch" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Accessok.com/golang/src/newcoder/03BinarySearch" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSearch\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Accessok.com/golang/src/newcoder/04Tree 中的 TestTree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/newcoder/04Tree" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Accessok.com/golang/src/newcoder/04Tree" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestTree\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test Accessok.com/golang/src/newcoder/04Tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/newcoder/04Tree" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Accessok.com/golang/src/newcoder/04Tree" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 测试.Accessok.com/golang/src/meeting 中的 TestMinChange" />
+        <item itemvalue="Go 构建.go build Accessok.com/golang/src/meeting" />
+        <item itemvalue="Go 测试.Accessok.com/golang/src/newcoder/04Tree 中的 TestTree" />
+        <item itemvalue="Go 测试.go test Accessok.com/golang/src/newcoder/04Tree" />
+        <item itemvalue="Go 测试.Accessok.com/golang/src/newcoder/03BinarySearch 中的 TestSearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-d297c17c1fbd-57c114c3cede-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-243.26053.20" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-GO-243.26053.20" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM14OddEvenList.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM14OddEvenList.go</url>
+          <line>31</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM12SortInList.go</url>
+          <line>45</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM12SortInList.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM15DeleteDuplicates.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM15DeleteDuplicates.go</url>
+          <line>4</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM16DeleteDuplicates2.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM16DeleteDuplicates2.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM4Merge.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/02LinkArray/BM4Merge.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/03BinarySearch/BM17Search.go</url>
+          <line>4</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/03BinarySearch/BM17Search.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/newcoder/03BinarySearch/BM2MinNumberInRotateArray.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/meeting/根据某条件最少交换次数.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/meeting/根据某条件最少交换次数.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869040)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869040)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869040)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634794672)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869024)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634277904)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869088)" />
+        <watch expression="*(*&quot;int&quot;)(824633869024)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634295008)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634294944)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869104)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634294960)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634294960)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634294960)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869104)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869024)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869024)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869024)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869024)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634794672)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869088)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633869024)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634294960)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824633892408)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634295024)" />
+        <watch expression="*(*&quot;main.ListNode&quot;)(824634295024)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
